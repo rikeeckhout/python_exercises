@@ -14,6 +14,8 @@ print('the product is : ',product)
 
 name = input('What is your name?\n\t')
 print("Hi, %s." %name)
+number = input('Enter a number?\n\t')
+print("number = " + number)
 
 def fib(n):
     a, b = 0, 1
